@@ -1,3 +1,4 @@
+pub mod widget;
 use sdl2::event::Event;
 
 pub fn run() -> Result<(), Box<dyn std::error::Error>> {
