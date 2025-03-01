@@ -8,4 +8,6 @@ name = "dvui"
 path = "src/lib.rs"
 
 [dependencies]
+derive_more = {version="2.0.1", features=["full"]}
 sdl2 = "0.37.0"
+smart-default = "0.7.1"
